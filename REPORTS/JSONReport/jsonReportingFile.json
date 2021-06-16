@@ -1,0 +1,389 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-06-11T09:46:27.060Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2216408600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.LaunchBrowser()"
+            }
+          },
+          {
+            "result": {
+              "duration": 109000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.waitTime()"
+            }
+          },
+          {
+            "result": {
+              "duration": 78700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.setCookies()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "To verify login functionality with valid username and invalid password for facebook",
+        "description": "",
+        "id": "to-validate-the-login-functionality-of-the-given-application;to-verify-login-functionality-with-valid-username-and-invalid-password-for-facebook",
+        "after": [
+          {
+            "result": {
+              "duration": 39700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.logOut()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2750913900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User will hit the URL",
+            "match": {
+              "location": "Stepdefinition.userWillHitTheURL()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 159884900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User will enter the Username and Password",
+            "match": {
+              "location": "Stepdefinition.userWillEnterTheUsernameAndPassword(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Username",
+                  "Password"
+                ]
+              },
+              {
+                "cells": [
+                  "Selenium",
+                  "Sel@123"
+                ]
+              },
+              {
+                "cells": [
+                  "Java",
+                  "Java@123"
+                ]
+              },
+              {
+                "cells": [
+                  "API",
+                  "Api@123"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 623000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User will click the login button",
+            "match": {
+              "location": "Stepdefinition.userWillClickTheLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 486300,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User will verify the login functionality",
+            "match": {
+              "location": "Stepdefinition.userWillVerifyTheLoginFunctionality()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@End2End"
+          },
+          {
+            "name": "@Sanity"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-06-11T09:46:32.218Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1312063400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.LaunchBrowser()"
+            }
+          },
+          {
+            "result": {
+              "duration": 79100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.maxWindow()"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "To verify login functionality with invalid username and valid password for Instagram",
+        "description": "",
+        "id": "to-validate-the-login-functionality-of-the-given-application;to-verify-login-functionality-with-invalid-username-and-valid-password-for-instagram",
+        "after": [
+          {
+            "result": {
+              "duration": 51500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.endBrowser()"
+            }
+          },
+          {
+            "result": {
+              "duration": 54300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.clearCookies()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 292200,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User will hit the url",
+            "match": {
+              "location": "Stepdefinition.userWillHitTheUrl()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 553100,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User will enter the Username and PASSWORD",
+            "match": {
+              "location": "Stepdefinition.userWillEnterTheUsernameAndPASSWORD()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 503200,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User will click the LOGIN button",
+            "match": {
+              "location": "Stepdefinition.userWillClickTheLOGINButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 506400,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User will verify the LOGIN functionality",
+            "match": {
+              "location": "Stepdefinition.userWillVerifyTheLOGINFunctionality()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@End2End"
+          },
+          {
+            "name": "@Smoke"
+          }
+        ]
+      }
+    ],
+    "name": "To validate the login functionality of the given application",
+    "description": "",
+    "id": "to-validate-the-login-functionality-of-the-given-application",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/com/adactin/feature/adactin.feature",
+    "tags": [
+      {
+        "name": "@End2End",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-06-11T09:46:33.535Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1259521200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.LaunchBrowser()"
+            }
+          },
+          {
+            "result": {
+              "duration": 105800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.maxWindow()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "To verify login functionality with valid username and invalid pass",
+        "description": "",
+        "id": "to-validate-the-login-functionality-of-the-given-application;to-verify-login-functionality-with-valid-username-and-invalid-pass",
+        "after": [
+          {
+            "result": {
+              "duration": 52400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.endBrowser()"
+            }
+          },
+          {
+            "result": {
+              "duration": 33300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.clearCookies()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 540700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "USER will hit the URL",
+            "match": {
+              "location": "Stepdefinition2.userWillHitTheURL()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2405600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "USER will enter the Username and Password",
+            "match": {
+              "location": "Stepdefinition2.userWillEnterTheUsernameAndPassword()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 460400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "USER will click the login button",
+            "match": {
+              "location": "Stepdefinition2.userWillClickTheLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 438000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "USER will verify the login functionality",
+            "match": {
+              "location": "Stepdefinition2.userWillVerifyTheLoginFunctionality()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Performance"
+          },
+          {
+            "name": "@Smoke"
+          }
+        ]
+      }
+    ],
+    "name": "To validate the login functionality of the given application",
+    "description": "",
+    "id": "to-validate-the-login-functionality-of-the-given-application",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/com/adactin/feature/adactin2.feature",
+    "tags": [
+      {
+        "name": "@Performance",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
